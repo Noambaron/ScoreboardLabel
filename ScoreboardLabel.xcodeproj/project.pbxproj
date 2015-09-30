@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17838218335DA736D7814551 /* Pods_ScoreboardLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B083F1F8E5E994A6894325B /* Pods_ScoreboardLabel.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CA65E9ED1BBC2F72008643DA /* ScoreboardLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = CA65E9EC1BBC2F72008643DA /* ScoreboardLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA65EA061BBC3071008643DA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA65EA031BBC3071008643DA /* Extensions.swift */; };
+		CA65EA071BBC3071008643DA /* ScoreboardLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA65EA041BBC3071008643DA /* ScoreboardLabel.swift */; };
+		CA65EA081BBC3071008643DA /* ScoreboardLabelLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA65EA051BBC3071008643DA /* ScoreboardLabelLetter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08638CF7CB6E98A2DDF32DBB /* Pods-ScoreboardLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoreboardLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScoreboardLabel/Pods-ScoreboardLabel.debug.xcconfig"; sourceTree = "<group>"; };
+		6B083F1F8E5E994A6894325B /* Pods_ScoreboardLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScoreboardLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF5DEF9C17AEC0CF7CAB873 /* Pods-ScoreboardLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoreboardLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScoreboardLabel/Pods-ScoreboardLabel.release.xcconfig"; sourceTree = "<group>"; };
+		CA65E9E71BBC2F72008643DA /* ScoreboardLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScoreboardLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA65E9EB1BBC2F72008643DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA65E9EC1BBC2F72008643DA /* ScoreboardLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreboardLabel.h; sourceTree = "<group>"; };
+		CA65EA031BBC3071008643DA /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CA65EA041BBC3071008643DA /* ScoreboardLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreboardLabel.swift; sourceTree = "<group>"; };
+		CA65EA051BBC3071008643DA /* ScoreboardLabelLetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreboardLabelLetter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA65E9E31BBC2F72008643DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17838218335DA736D7814551 /* Pods_ScoreboardLabel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F8CAF16244929F9EADC4EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B083F1F8E5E994A6894325B /* Pods_ScoreboardLabel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44F5620D762CB4943F5551F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08638CF7CB6E98A2DDF32DBB /* Pods-ScoreboardLabel.debug.xcconfig */,
+				8DF5DEF9C17AEC0CF7CAB873 /* Pods-ScoreboardLabel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA65E9DD1BBC2F72008643DA = {
+			isa = PBXGroup;
+			children = (
+				CA65E9E91BBC2F72008643DA /* ScoreboardLabel */,
+				CA65E9E81BBC2F72008643DA /* Products */,
+				44F5620D762CB4943F5551F4 /* Pods */,
+				05F8CAF16244929F9EADC4EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA65E9E81BBC2F72008643DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA65E9E71BBC2F72008643DA /* ScoreboardLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA65E9E91BBC2F72008643DA /* ScoreboardLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CA65E9EC1BBC2F72008643DA /* ScoreboardLabel.h */,
+				CA65EA031BBC3071008643DA /* Extensions.swift */,
+				CA65EA041BBC3071008643DA /* ScoreboardLabel.swift */,
+				CA65EA051BBC3071008643DA /* ScoreboardLabelLetter.swift */,
+				CA65E9EA1BBC2F72008643DA /* Supporting Files */,
+			);
+			path = ScoreboardLabel;
+			sourceTree = "<group>";
+		};
+		CA65E9EA1BBC2F72008643DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA65E9EB1BBC2F72008643DA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CA65E9E41BBC2F72008643DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA65E9ED1BBC2F72008643DA /* ScoreboardLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CA65E9E61BBC2F72008643DA /* ScoreboardLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA65E9FD1BBC2F72008643DA /* Build configuration list for PBXNativeTarget "ScoreboardLabel" */;
+			buildPhases = (
+				706BDB95C9BE88744BB164C2 /* Check Pods Manifest.lock */,
+				CA65E9E21BBC2F72008643DA /* Sources */,
+				CA65E9E31BBC2F72008643DA /* Frameworks */,
+				CA65E9E41BBC2F72008643DA /* Headers */,
+				CA65E9E51BBC2F72008643DA /* Resources */,
+				E8699B7ADEF42DA634AEDB9C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoreboardLabel;
+			productName = ScoreboardLabel;
+			productReference = CA65E9E71BBC2F72008643DA /* ScoreboardLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA65E9DE1BBC2F72008643DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Noam;
+				TargetAttributes = {
+					CA65E9E61BBC2F72008643DA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = CA65E9E11BBC2F72008643DA /* Build configuration list for PBXProject "ScoreboardLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA65E9DD1BBC2F72008643DA;
+			productRefGroup = CA65E9E81BBC2F72008643DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA65E9E61BBC2F72008643DA /* ScoreboardLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA65E9E51BBC2F72008643DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		706BDB95C9BE88744BB164C2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8699B7ADEF42DA634AEDB9C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScoreboardLabel/Pods-ScoreboardLabel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA65E9E21BBC2F72008643DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA65EA071BBC3071008643DA /* ScoreboardLabel.swift in Sources */,
+				CA65EA061BBC3071008643DA /* Extensions.swift in Sources */,
+				CA65EA081BBC3071008643DA /* ScoreboardLabelLetter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA65E9FB1BBC2F72008643DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA65E9FC1BBC2F72008643DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA65E9FE1BBC2F72008643DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08638CF7CB6E98A2DDF32DBB /* Pods-ScoreboardLabel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ScoreboardLabel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA65E9FF1BBC2F72008643DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF5DEF9C17AEC0CF7CAB873 /* Pods-ScoreboardLabel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ScoreboardLabel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA65E9E11BBC2F72008643DA /* Build configuration list for PBXProject "ScoreboardLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA65E9FB1BBC2F72008643DA /* Debug */,
+				CA65E9FC1BBC2F72008643DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA65E9FD1BBC2F72008643DA /* Build configuration list for PBXNativeTarget "ScoreboardLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA65E9FE1BBC2F72008643DA /* Debug */,
+				CA65E9FF1BBC2F72008643DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA65E9DE1BBC2F72008643DA /* Project object */;
+}
