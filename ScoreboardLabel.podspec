@@ -10,7 +10,7 @@ A label that switches texts by animating a flip of each letter - Swift.
 DESC
 
 s.homepage 	= "https://github.com/Noambaron/ScoreboardLabel"
-# s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+s.screenshots  = "https://github.com/Noambaron/ScoreboardLabel/blob/master/ScoreboardLabel.gif"
 s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author         	= { "Noam bar-on" => "bar.on.noam1.com" }
 s.social_media_url   = ""
