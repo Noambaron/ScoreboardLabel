@@ -88,8 +88,9 @@ public class ScoreboardLabel: UIView, ScoreboardLabelLetterProtocol {
     }
     
     
-    func flip() {
-
+    func flip(continuosly: Bool) {
+        
+        isRepeating = continuosly
         flipLetterAtIndex(0)
     }
     
@@ -119,7 +120,7 @@ public class ScoreboardLabel: UIView, ScoreboardLabelLetterProtocol {
         
         if (letter.letterIndex == flippingLetters.count && isRepeating == true) { //it was the last letter and we need to repeat
             performThisAfter(0.8, { () -> () in
-                self.flip()
+                self.flipLetterAtIndex(0)
             })
         }else if letter.letterIndex == flippingLetters.count {
             
