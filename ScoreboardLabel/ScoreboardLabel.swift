@@ -12,19 +12,19 @@ import UIKit
 
 public class ScoreboardLabel: UIView, ScoreboardLabelLetterProtocol {
     
-    var firstText = ""
-    var secondText = ""
-    var textFont : UIFont!
-    var textColor: UIColor!
-    var interval = CFTimeInterval(0.3)
-    var isRepeating = true
+    public var firstText = ""
+    public var secondText = ""
+    public var textFont : UIFont!
+    public var textColor: UIColor!
+    public var interval = CFTimeInterval(0.3)
+    public var isRepeating = true
     
     var firstWordLetters = Array<String>()
     var secondWordLetters = Array<String>()
     
     var flippingLetters = Array<ScoreboardLabelLetter>()
 
-    var completionHandler:((Bool)->Void)!
+    public var completionHandler:((Bool)->Void)!
     
     private var showingFirstWord = true
     
@@ -94,7 +94,7 @@ public class ScoreboardLabel: UIView, ScoreboardLabelLetterProtocol {
         flipLetterAtIndex(0)
     }
     
-    func stopFlipping() {
+    public func stopFlipping() {
         
         isRepeating = false
     }
