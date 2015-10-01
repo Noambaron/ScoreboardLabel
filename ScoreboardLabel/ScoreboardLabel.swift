@@ -88,7 +88,7 @@ public class ScoreboardLabel: UIView, ScoreboardLabelLetterProtocol {
     }
     
     
-    func flip(continuosly: Bool) {
+    public func flip(continuosly: Bool) {
         
         isRepeating = continuosly
         flipLetterAtIndex(0)
