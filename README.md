@@ -12,16 +12,12 @@ A label that switches texts by animating a flip of each letter - Written in Swif
 * iOS 8.0+
 * xCode 6+
 
-## How ScoreboardLabel works
-
-ScoreboardLabel is composed of three main objects. the cache manager, the image request object, and the image file (Realm) object. The image file is the Realm scheme to be saved. The image request object is an abstract vehicle used to process each image operation (save/ retrieve/ delete) and the cache manager is the coordinator and API.
-
-
 ## Example App 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 You will also need to insert a FlickerAPIFey in the predefined macro on FlickrAPIKey.h
 A free FlickrAPIKey is available [here](http://www.flickr.com/services/api/misc.api_keys.html)
+
 
 ## Installation
 
