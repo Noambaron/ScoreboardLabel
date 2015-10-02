@@ -68,7 +68,7 @@ Feel free to collaborate with ideas, issues and/or pull requests.
 
 ## Author
 
-Noam Bar-on, bar.on.noam1@gmail.com
+Noam Bar-on, https://www.linkedin.com/in/noambaron
 
 ## License
 
