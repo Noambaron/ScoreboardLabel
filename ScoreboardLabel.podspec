@@ -10,10 +10,10 @@ A label that switches texts by animating a flip of each letter - Written in Swif
 DESC
 
 s.homepage 	= "https://github.com/Noambaron/ScoreboardLabel"
-s.screenshots  = "https://github.com/Noambaron/ScoreboardLabel/blob/master/ScoreboardLabel.gif"
+#s.screenshots  = "https://github.com/Noambaron/ScoreboardLabel/blob/master/ScoreboardLabel.gif"
 s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author         	= { "Noam bar-on" => "https://www.linkedin.com/in/noambaron" }
-s.social_media_url   = ""
+s.social_media_url = "https://www.linkedin.com/in/noambaron"
 s.platform 	= :ios, "8.0"
 s.source   	= { :git => "https://github.com/Noambaron/ScoreboardLabel.git", :tag => s.version }
 s.source_files  = "ScoreboardLabel/**/*.swift"
