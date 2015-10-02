@@ -7,14 +7,10 @@ A label that switches texts by animating a flip of each letter - Written in Swif
 
 ![Animation](ScoreboardLabel.gif)
 
-## What ScoreboardLabel Does
+## Requirements
 
 * iOS 8.0+
 * xCode 6+
-* Lets you save optional meta data alongside each image
-* Leaves all network activity to you
-* Lets you add your functionality in key points through the process 
-* Uses an asynchronous and serial approach processing each image request
 
 ## How ScoreboardLabel works
 
