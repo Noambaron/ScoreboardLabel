@@ -34,7 +34,7 @@ public class ScoreboardLabel: UIView, ScoreboardLabelLetterProtocol {
         clipsToBounds = false
     }
     
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -107,7 +107,7 @@ public class ScoreboardLabel: UIView, ScoreboardLabelLetterProtocol {
         }
         let viewLetter = flippingLetters[index]
         
-        var letter = (showingFirstWord == true) ? secondWordLetters.get(index) : firstWordLetters.get(index)
+        let letter = (showingFirstWord == true) ? secondWordLetters.get(index) : firstWordLetters.get(index)
         if let letter = letter {
             viewLetter.flipToLetterAfterWait(letter, wait: interval * CFTimeInterval(index))
         }else {
@@ -119,7 +119,7 @@ public class ScoreboardLabel: UIView, ScoreboardLabelLetterProtocol {
     func didFinishAnimatingLetter(letter: ScoreboardLabelLetter) {
         
         if (letter.letterIndex == flippingLetters.count && isRepeating == true) { //it was the last letter and we need to repeat
-            performThisAfter(0.8, { () -> () in
+            performThisAfter(0.8, closure: { () -> () in
                 self.flipLetterAtIndex(0)
             })
         }else if letter.letterIndex == flippingLetters.count {

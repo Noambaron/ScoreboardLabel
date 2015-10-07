@@ -183,6 +183,8 @@
 		CA65EA6F1BBD77BE008643DA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Noam;
 				TargetAttributes = {

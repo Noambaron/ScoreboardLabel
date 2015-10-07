@@ -4,6 +4,6 @@
 use_frameworks!
 
 target 'ScoreboardLabel' do
-    pod 'pop', '~>1.0'
+    pod 'pop', '~>1.0.8'
 end
 
