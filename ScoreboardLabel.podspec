@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name     	= "ScoreboardLabel"
-s.version      = "0.1"
+s.version      = "0.2"
 s.summary      = "A label that switches texts by animating a flip of each letter - Written in Swift, using POP"
 
 s.description  = <<-DESC

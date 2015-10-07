@@ -12,7 +12,7 @@ extension Array {
     
     // Safely lookup an index that might be out of bounds,
     // returning nil if it does not exist
-    func get(index: Int) -> T? {
+    func get(index: Int) -> Element? {
         if 0 <= index && index < count {
             return self[index]
         } else {
@@ -24,7 +24,7 @@ extension Array {
 
 extension String {
     func Letterize() -> [String] {
-        return map(self) { String($0) }
+        return self.characters.map { String($0) }
     }
 }
 

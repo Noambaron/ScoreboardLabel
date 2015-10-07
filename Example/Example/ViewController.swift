@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         
         
         //stop start button
-        let button = UIButton.buttonWithType(UIButtonType.System) as! UIButton
+        let button = UIButton(type: UIButtonType.System)
         button.titleLabel?.font = font
         button.setTitle("Start", forState: UIControlState.Normal)
         button.setTitle("Stop", forState: UIControlState.Selected)

@@ -57,7 +57,7 @@ public class ScoreboardLabelLetter: UIView {
         originLowerHalf = CGPointMake(0, frame.size.height * 0.51)
     }
     
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -267,8 +267,8 @@ public class ScoreboardLabelLetter: UIView {
         
         //taking a snapShot
         UIGraphicsBeginImageContext(theView.frame.size)
-        theView.layer.renderInContext(UIGraphicsGetCurrentContext())
-        var screenShot = UIGraphicsGetImageFromCurrentImageContext()
+        theView.layer.renderInContext(UIGraphicsGetCurrentContext()!)
+        let screenShot = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         
         //returning only upper half
@@ -276,9 +276,9 @@ public class ScoreboardLabelLetter: UIView {
         
         
         let imageRef = CGImageCreateWithImageInRect(screenShot.CGImage, rect)
-        let half = UIImage(CGImage: imageRef)
+        let half = UIImage(CGImage: imageRef!)
         
-        return half!
+        return half
     }
     
     
@@ -294,7 +294,7 @@ public class ScoreboardLabelLetter: UIView {
     func maskForRectInSection(section:Section ,rect:CGRect) -> CAShapeLayer {
         
         let layerMask = CAShapeLayer()
-        let corners = (section == Section.Upper) ? UIRectCorner.TopLeft | UIRectCorner.TopRight : UIRectCorner.BottomLeft | UIRectCorner.BottomRight
+        let corners = (section == Section.Upper) ? UIRectCorner.TopLeft.union(UIRectCorner.TopRight) : UIRectCorner.BottomLeft.union(UIRectCorner.BottomRight)
         layerMask.path = UIBezierPath(roundedRect: rect, byRoundingCorners: corners, cornerRadii: CGSizeMake(5, 5)).CGPath
         
         return layerMask
