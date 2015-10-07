@@ -4,7 +4,7 @@
 use_frameworks!
 
 target 'Example' do
-    pod 'ScoreboardLabel', :git => 'https://github.com/Noambaron/ScoreboardLabel.git'
+    pod 'ScoreboardLabel', '~> 0.2'
 end
 
 target 'ExampleTests' do

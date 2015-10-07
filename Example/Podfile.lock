@@ -1,22 +1,13 @@
 PODS:
   - pop (1.0.8)
-  - ScoreboardLabel (0.1):
+  - ScoreboardLabel (0.2):
     - pop (~> 1.0)
 
 DEPENDENCIES:
-  - ScoreboardLabel (from `https://github.com/Noambaron/ScoreboardLabel.git`)
-
-EXTERNAL SOURCES:
-  ScoreboardLabel:
-    :git: https://github.com/Noambaron/ScoreboardLabel.git
-
-CHECKOUT OPTIONS:
-  ScoreboardLabel:
-    :commit: 96e7af3c8b6e307f863e739d7edeab291e0e447e
-    :git: https://github.com/Noambaron/ScoreboardLabel.git
+  - ScoreboardLabel (~> 0.2)
 
 SPEC CHECKSUMS:
   pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
-  ScoreboardLabel: e39dc4e339fa13f81a7c700f710cc1a445321e82
+  ScoreboardLabel: 07004ea7c2e5f9e9feee469c4297d4cf26d7819f
 
 COCOAPODS: 0.38.2

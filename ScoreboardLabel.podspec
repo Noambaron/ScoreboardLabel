@@ -15,7 +15,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author         	= { "Noam bar-on" => "https://www.linkedin.com/in/noambaron" }
 s.social_media_url = "https://www.linkedin.com/in/noambaron"
 s.platform 	= :ios, "8.0"
-s.source   	= { :git => "https://github.com/Noambaron/ScoreboardLabel.git", :tag => s.version }
+s.source   	= { :git => "https://github.com/Noambaron/ScoreboardLabel.git", :tag => "0.2" }
 s.source_files  = "ScoreboardLabel/**/*.swift"
 
 s.requires_arc = true
