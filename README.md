@@ -10,7 +10,7 @@ A label that switches texts by animating a flip of each letter - Written in Swif
 ## Requirements
 
 * iOS 8.0+
-* xCode 6+
+* Xcode 6+
 
 ## Example App 
 
